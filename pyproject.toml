@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bunadmin"
+version = "0.1.0"
+description = "admin dashborad for bun application and order management"
+authors = ["abdiwali maxamed"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
