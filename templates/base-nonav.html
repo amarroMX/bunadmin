@@ -11,12 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="{% static '/css/dist/output.css' %}" />
-    <script
-      src="{% static '/js/libs/alpinejs.min.js' %}"
-      defer
-    ></script>
-    <script src="{% static '/js/dist/init-alpine.js' %}" defer></script>
-    <script src="{% static '/js/libs/stimulus.js' %}" defer></script>
+    <script type="module" src="{% static '/js/dist/application.js'  %}"></script>
   </head>
   <body>
     {% block content %} {% endblock %}

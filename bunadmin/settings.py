@@ -1,5 +1,8 @@
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
 import os
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -53,6 +56,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'dashboard.context_processors.supported_languages'
             ],
         },
     },
@@ -95,6 +99,14 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
+
+LANGUAGES = [
+    ("de", _("German")),
+    ("en", _("English")),
+    ("fr", _("French")),
+    ("it", _("Italien")),
+    ("es", _("Spanish")),
+]
 
 TIME_ZONE = 'UTC'
 

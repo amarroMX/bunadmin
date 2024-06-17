@@ -23,6 +23,16 @@
       </div>
       <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
         <div class="w-full">
+          <form  data-controller="set_language" method="post" action="{% url 'dashboard:set_language' %}">
+                <select name="language" class="select select-ghost select-xs font-normal text-gray-600 capitalized focus:outline-none mb-4">
+                  {% for language in languages %}
+                    <option class="font-normal" value="{{language}}">
+
+                      {{language}}
+                    </option>
+                  {% endfor %}
+                </select>
+          </form>
           <h1
             class="mb-4 text-2xl font-semibold text-center text-gray-700 dark:text-gray-200"
           >
