@@ -41,6 +41,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'bunadmin.urls'
@@ -100,6 +101,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale'),
+]
+
 LANGUAGES = [
     ("de", _("German")),
     ("en", _("English")),
@@ -107,6 +112,10 @@ LANGUAGES = [
     ("it", _("Italien")),
     ("es", _("Spanish")),
 ]
+
+LANGUAGES_NAMES = tuple(languages[1] for languages in LANGUAGES)
+
+LANGUAGES_CODES = tuple(languages[0] for languages in LANGUAGES)
 
 TIME_ZONE = 'UTC'
 

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-18 08:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bunadmin/settings.py:109
+msgid "German"
+msgstr ""
+
+#: bunadmin/settings.py:110
+msgid "English"
+msgstr "Anglais"
+
+#: bunadmin/settings.py:111
+msgid "French"
+msgstr "Français"
+
+#: bunadmin/settings.py:112
+msgid "Italien"
+msgstr "Italien"
+
+#: bunadmin/settings.py:113
+msgid "Spanish"
+msgstr "Espagnole"
+
+#: users/templates/users/login.html:40
+msgid "Welcome to Afronectar Administration Portal"
+msgstr "Bienvenue dans le portale d'administration Afronectar"
+
+#: users/templates/users/login.html:46
+msgid "Login"
+msgstr "Se Connecter"
+
+#: users/templates/users/login.html:50
+msgid "Email"
+msgstr "Email"
+
+#: users/templates/users/login.html:59
+msgid "Password"
+msgstr "Mot De pass"
+
+#: users/templates/users/login.html:71
+msgid "Log in"
+msgstr "Connexion"
+
+#: users/templates/users/login.html:97
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié?"
+
+#: users/templates/users/login.html:105
+msgid "Create account"
+msgstr "Créer un compte"
